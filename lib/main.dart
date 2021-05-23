@@ -1,3 +1,4 @@
+import 'package:amplify_analytics_pinpoint/amplify_analytics_pinpoint.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_flutter/amplify.dart';
 import 'package:amplify_storage_s3/amplify_storage_s3.dart';
@@ -27,8 +28,9 @@ class _MyAppState extends State<MyApp> {
   void _initAmplifyFlutter() async {
     AmplifyAuthCognito auth = AmplifyAuthCognito();
     AmplifyStorageS3 storage = AmplifyStorageS3();
+    AmplifyAnalyticsPinpoint analyticsPinpoint = AmplifyAnalyticsPinpoint();
 
-    Amplify.addPlugins([auth, storage]);
+    Amplify.addPlugins([auth, storage, analyticsPinpoint]);
 
     // Initialize AmplifyFlutter
     try {
