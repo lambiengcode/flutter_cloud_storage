@@ -1,0 +1,21 @@
+{
+    "appName": "cloudchopper",
+    "roleName": "pinpointLambdaRoleaaf79265",
+    "cloudformationPolicyName": "cloudformationPolicyaaf79265",
+    "cloudWatchPolicyName": "cloudWatchPolicyaaf79265",
+    "pinpointPolicyName": "pinpointPolicyaaf79265",
+    "authPolicyName": "pinpoint_amplify_aaf79265",
+    "unauthPolicyName": "pinpoint_amplify_aaf79265",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

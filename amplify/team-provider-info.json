@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudchopper-dev-204628-authRole",
+      "UnauthRoleArn": "arn:aws:iam::198101249191:role/amplify-cloudchopper-dev-204628-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::198101249191:role/amplify-cloudchopper-dev-204628-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cloudchopper-dev-204628-deployment",
+      "UnauthRoleName": "amplify-cloudchopper-dev-204628-unauthRole",
+      "StackName": "amplify-cloudchopper-dev-204628",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:198101249191:stack/amplify-cloudchopper-dev-204628/4ba97a60-bbcd-11eb-b0c7-02ab63576a78",
+      "AmplifyAppId": "d9myyhl3m04b9"
+    },
+    "categories": {
+      "auth": {
+        "cloudchopperd20aa567": {}
+      }
+    }
+  }
+}

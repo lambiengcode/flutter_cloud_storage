@@ -1,0 +1,70 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloudchopper-dev-204628-authRole",
+      "UnauthRoleArn": "arn:aws:iam::198101249191:role/amplify-cloudchopper-dev-204628-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::198101249191:role/amplify-cloudchopper-dev-204628-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cloudchopper-dev-204628-deployment",
+      "UnauthRoleName": "amplify-cloudchopper-dev-204628-unauthRole",
+      "StackName": "amplify-cloudchopper-dev-204628",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:198101249191:stack/amplify-cloudchopper-dev-204628/4ba97a60-bbcd-11eb-b0c7-02ab63576a78",
+      "AmplifyAppId": "d9myyhl3m04b9"
+    }
+  },
+  "auth": {
+    "cloudchopperd20aa567": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cloudchopper-dev-204628-deployment/amplify-cfn-templates/auth/cloudchopperd20aa567-cloudformation-template.yml",
+        "logicalId": "authcloudchopperd20aa567"
+      },
+      "lastPushTimeStamp": "2021-05-23T14:06:24.114Z",
+      "output": {
+        "UserPoolId": "ap-southeast-1_9WxFEXgEx",
+        "AppClientIDWeb": "7nmsq7nfs8rfcuijt4arnsph4v",
+        "AppClientID": "1a8dod847cqa2m5pas3v6c8n5u",
+        "IdentityPoolId": "ap-southeast-1:08efc3f6-bb71-4d8f-9ada-8b38f9c77691",
+        "IdentityPoolName": "cloudchopperd20aa567_identitypool_d20aa567__dev",
+        "UserPoolName": "cloudchopperd20aa567_userpool_d20aa567"
+      },
+      "lastPushDirHash": "p1D6cyya+gsMcV8MMLL7VL7ggvo="
+    }
+  },
+  "storage": {
+    "S3chopperthao": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cloudchopper-dev-204628-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storageS3chopperthao"
+      },
+      "lastPushTimeStamp": "2021-05-23T14:06:24.405Z",
+      "output": {
+        "BucketName": "cloudchopper5de8d1549c594acca63ed06abae2d414204628-dev",
+        "Region": "ap-southeast-1"
+      },
+      "lastPushDirHash": "1cDWKe4EN1u8vfYiXo/C/ogNixg="
+    }
+  },
+  "analytics": {
+    "cloudchopper": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-cloudchopper-dev-204628-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticscloudchopper"
+      },
+      "lastPushTimeStamp": "2021-05-23T14:06:24.412Z",
+      "output": {
+        "appName": "cloudchopper-dev",
+        "Region": "us-west-2",
+        "Id": "269495fe54cb40d8ba1d0a393776a11c"
+      },
+      "lastPushDirHash": "A5pBxCVNfOAGje8cV6s3MGuLm1M="
+    }
+  }
+}
